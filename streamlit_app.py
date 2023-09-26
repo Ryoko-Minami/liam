@@ -5,7 +5,7 @@ import random
 st.set_page_config(page_title="タイトル", layout="wide")
 
 # タイトルを設定
-st.title('Streamlitのサンプルアプリ')
+st.title('Streamlitのサンプルアプllリ')
 
 # テキスト入力ボックスを作成し、ユーザーからの入力を受け取る
 user_input = st.text_input('あなたの名前を入力してください')
@@ -40,4 +40,3 @@ if st.button('乱数を生成'):
     # 最小値と最大値の間で乱数を生成
     random_num = random.randint(min_val, max_val)
     st.write(f'生成された乱数: {random_num}')
-    
